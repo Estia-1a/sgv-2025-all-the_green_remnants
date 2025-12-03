@@ -42,7 +42,7 @@ footer { background: #1b4332; color: white; padding: 50px 0; }
 .footer-grid { display: flex; justify-content: space-around; text-align: left; }
 
 .Mikel {
-    width: 700px;   /* ou 150px, 250px… comme tu veux */
+    width: 450px;   /* ou 150px, 250px… comme tu veux */
     height: 300px;   /* garde les proportions */
     border-radius: 12px; 
 }
