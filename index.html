@@ -3,12 +3,73 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Les Jardins de l'Uhabia | Bidart</title>
 
     <link rel="stylesheet" href="styles/desktop.css" media="screen and (min-width: 768px)"> 
     <link rel="stylesheet" href="styles/mobile.css" media="screen and (max-width: 767px)"> 
-    <title>Document</title>
 </head>
 <body>
-    
+
+    <header>
+        <div class="container nav-container">
+            <div class="logo">Les Jardins de l'Uhabia 🌿</div>
+            <nav class="desktop-nav">
+                <a href="#propos">Le Maraîcher</a>
+                <a href="#direct">En Direct</a>
+                <a href="#infos">Infos</a>
+            </nav>
+        </div>
+    </header>
+
+    <section class="hero">
+        <div class="container">
+            <h1>Maraîchage Bio à Bidart</h1>
+            <p>Légumes de saison, cultivés par Mikel Etcheverry.</p>
+            <a href="#direct" class="btn">Disponibilités</a>
+        </div>
+    </section>
+
+    <section id="propos" class="section-light">
+        <div class="container split-layout">
+            <div class="text-block">
+                <h2>Notre Histoire</h2>
+                <p><strong>Mikel Etcheverry</strong> a repris la ferme familiale en 2020 sur les hauteurs de l'Uhabia. Permaculture et zéro pesticide pour des produits sains.</p>
+            </div>
+            <div class="image-placeholder">
+                [Photo : Mikel]
+            </div>
+        </div>
+    </section>
+
+    <section id="direct" class="section-white">
+        <div class="container">
+            <h2>En direct du champ</h2>
+            <div class="stock-list">
+                <div class="stock-item available">
+                    <span class="item-name">Tomates</span>
+                    <span class="item-price">4.50€/kg</span>
+                    <span class="item-status">✅</span>
+                </div>
+                <div class="stock-item low-stock">
+                    <span class="item-name">Piments</span>
+                    <span class="item-price">6.00€/kg</span>
+                    <span class="item-status">⚠️</span>
+                </div>
+                <div class="stock-item out-of-stock">
+                    <span class="item-name">Salades</span>
+                    <span class="item-price">-</span>
+                    <span class="item-status">❌</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <footer id="infos">
+        <div class="container footer-grid">
+            <p>📍 Chemin de la Vallée, 64210 Bidart</p>
+            <p>⏰ Mercredi 16h-19h / Samedi 09h-13h</p>
+        </div>
+    </footer>
+
 </body>
 </html>

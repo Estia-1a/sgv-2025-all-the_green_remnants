@@ -1,0 +1,36 @@
+/* --- styles/mobile.css (ÉCRANS < 768px) --- */
+
+/* RESET & BASE */
+* { margin: 0; padding: 0; box-sizing: border-box; }
+body { font-family: sans-serif; line-height: 1.5; color: #333; }
+
+/* UTILITAIRES */
+.container { padding: 0 15px; }
+.btn { display: block; width: 100%; text-align: center; background: #2d6a4f; color: white; padding: 10px; border-radius: 5px; margin-top: 10px; text-decoration: none;}
+
+/* HEADER */
+header { padding: 15px 0; border-bottom: 1px solid #ddd; text-align: center; }
+.logo { font-size: 1.2rem; font-weight: bold; color: #2d6a4f; margin-bottom: 10px; }
+/* Sur mobile, on cache souvent le menu complet ou on le simplifie */
+.desktop-nav { display: flex; justify-content: center; gap: 10px; font-size: 0.8rem; }
+
+/* HERO */
+.hero { background: #52b788; color: white; padding: 40px 15px; text-align: center; }
+.hero h1 { font-size: 1.8rem; margin-bottom: 10px; }
+
+/* SECTIONS */
+section { padding: 40px 0; }
+.section-light { background: #f4f1ea; }
+h2 { color: #2d6a4f; margin-bottom: 15px; font-size: 1.5rem; }
+
+/* LAYOUT VERTICAL (La clé du mobile !) */
+.split-layout { display: flex; flex-direction: column; gap: 20px; }
+.image-placeholder { height: 200px; background: #ccc; width: 100%; display: flex; align-items: center; justify-content: center; }
+
+/* STOCKS */
+.stock-item { display: flex; justify-content: space-between; padding: 15px 0; border-bottom: 1px solid #eee; }
+.out-of-stock { color: #aaa; text-decoration: line-through; }
+
+/* FOOTER */
+footer { background: #1b4332; color: white; padding: 30px 15px; text-align: center; }
+.footer-grid p { margin-bottom: 15px; }
