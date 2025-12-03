@@ -29,8 +29,14 @@ h2 { color: #2d6a4f; margin-bottom: 15px; font-size: 1.5rem; }
 
 /* STOCKS */
 .stock-item { display: flex; justify-content: space-between; padding: 15px 0; border-bottom: 1px solid #eee; }
-.out-of-stock { color: #aaa; text-decoration: line-through; }
+.out-of-stock { color: #ff0000; text-decoration: line-through; }
 
 /* FOOTER */
 footer { background: #1b4332; color: white; padding: 30px 15px; text-align: center; }
 .footer-grid p { margin-bottom: 15px; }
+
+.Mikel {
+    width: 450px;   /* ou 150px, 250px… comme tu veux */
+    height: 200px;   /* garde les proportions */
+    border-radius: 12px; 
+}
