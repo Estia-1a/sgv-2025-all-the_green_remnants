@@ -35,14 +35,14 @@ h2 { color: #2d6a4f; margin-bottom: 30px; font-size: 2rem; }
 .stock-item { display: flex; justify-content: space-between; padding: 15px; border-bottom: 1px solid #eee; font-size: 1.1rem; }
 .stock-item:last-child { border-bottom: none; }
 .available { color: green; } 
-.out-of-stock { color: #aaa; }
+.out-of-stock { color: #ff0000; text-decoration: line-through; }
 
 /* FOOTER */
 footer { background: #1b4332; color: white; padding: 50px 0; }
 .footer-grid { display: flex; justify-content: space-around; text-align: left; }
 
 .Mikel {
-    width: 450px;   /* ou 150px, 250px… comme tu veux */
-    height: 300px;   /* garde les proportions */
+    width: 450px;
+    height: 300px;
     border-radius: 12px; 
 }
