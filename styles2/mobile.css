@@ -1,0 +1,54 @@
+/* --- AJOUTS POUR LA PAGE PRODUITS (MOBILE) --- */
+
+.hero-small {
+    background-color: #52b788;
+    color: white;
+    padding: 30px 15px;
+    text-align: center;
+}
+
+/* Grille Mobile : 1 colonne */
+.products-grid {
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+}
+
+.product-card {
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    overflow: hidden; /* Empêche l'image de dépasser */
+    background: white;
+}
+
+.card-img img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover; /* Coupe l'image proprement pour remplir le cadre */
+    display: block;
+}
+
+.card-content {
+    padding: 15px;
+}
+
+.card-content h3 { margin-bottom: 5px; color: #2d6a4f; }
+.desc { font-size: 0.9rem; color: #666; margin-bottom: 15px; }
+
+.card-footer {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    border-top: 1px solid #eee;
+    padding-top: 10px;
+}
+
+.price { font-weight: bold; font-size: 1.1rem; }
+.btn-small {
+    background: #bc6c25; /* Couleur terre */
+    color: white;
+    border: none;
+    padding: 5px 15px;
+    border-radius: 4px;
+    cursor: pointer;
+}
