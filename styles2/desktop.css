@@ -55,7 +55,7 @@ header { padding: 20px 0; background: white; box-shadow: 0 2px 5px rgba(0,0,0,0.
     object-fit: cover;
     display: block;
 }
-footer { background: #1b4332; color: white; padding: 50px 0; }
+footer { background: #1b4332; color: white; padding: 50px 0; margin-top: 20px; }
 .footer-grid { display: grid;
     grid-template-columns: repeat(2, 1fr); /* 2 colonnes */
     gap: 8px 20px; /* espace vertical et horizontal */
